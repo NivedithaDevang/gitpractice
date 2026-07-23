@@ -118,11 +118,7 @@ setTimeout(function() {
 console.log("End");
 
 
-const person = {
-  test(){
-    setTimeout(function() {
-      console.log(this);
-    }, 2000);
-  },
-};
-console.log(person);
+
+//forEach 
+const numbers = [1, 2, 3];
+numbers.forEach(num => console.log(num));
